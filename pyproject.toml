@@ -1,0 +1,15 @@
+[project]
+name = "chatter"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain>=1.4.10",
+    "langchain-experimental>=0.4.2",
+    "langchain-openai>=1.7.4",
+    "pandas>=3.1.1",
+    "python-dotenv>=1.2.4",
+    "streamlit>=1.67.0",
+    "tabulate>=0.10.0",
+]
